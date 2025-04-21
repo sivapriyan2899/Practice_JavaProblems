@@ -10,6 +10,7 @@ public class Anagrams {
 		String str1="listen";
 		String str2="silent";
 		
+		//converting to chararray
 		char[] charArray1 = str1.toCharArray();
 		char[] charArray2 = str2.toCharArray();
 		
@@ -17,7 +18,7 @@ public class Anagrams {
 		Arrays.sort(charArray1);
 		Arrays.sort(charArray2);
 		
-		
+		//comparing both array and printing the output
 		System.out.println(Arrays.equals(charArray1, charArray2));
 	}
 

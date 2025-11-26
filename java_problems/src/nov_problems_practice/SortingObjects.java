@@ -20,7 +20,6 @@ public class SortingObjects {
 
 		List<SortingObjects> arrayList = new ArrayList<SortingObjects>();
 
-
 		arrayList.add(new SortingObjects("siva",20,1000)); 
 		arrayList.add(new SortingObjects("jon",25,6000)); 
 		arrayList.add(new SortingObjects("remi",28,3000));

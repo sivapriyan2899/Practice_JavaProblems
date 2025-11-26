@@ -25,7 +25,7 @@ public class SortingObjects {
 		arrayList.add(new SortingObjects("remi",28,3000));
 
 		//arrayList.sort(Comparator.comparing(e-> e.age));
-
+		
 		arrayList.sort(new Comparator<SortingObjects>() {
 
 			@Override

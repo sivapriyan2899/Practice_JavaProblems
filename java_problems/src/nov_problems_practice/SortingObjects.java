@@ -13,7 +13,6 @@ public class SortingObjects {
 		name=nameOfEmployee;
 		age=ageOfEmployee;
 		salary=salaryOfEmployee;
-
 	}
 
 	public static void main(String[] args) {

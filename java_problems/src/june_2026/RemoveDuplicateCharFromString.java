@@ -18,15 +18,9 @@ public class RemoveDuplicateCharFromString {
 		
 		for(Map.Entry<Character, Integer> entrySet : hMap.entrySet()) {
 			
-			if(entrySet.getValue()==1) {
-				System.out.print(entrySet.getKey());
+			  if(entrySet.getValue()==1) { 
+				  System.out.print(entrySet.getKey()); 
 			}
-			
 		}
-		
-		
-		
-		
 	}
-
 }
